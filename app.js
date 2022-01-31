@@ -30,3 +30,44 @@ function novanota() {
         card.style.display = 'none'
     }
 }
+
+function alinhar_esquerda() {
+    let conteudo = document.querySelector('.conteudo')
+    if (conteudo.style.textAlign != 'left') {
+        conteudo.style.textAlign = 'left'
+    }
+}
+
+function centralizar () {
+    let conteudo = document.querySelector('.conteudo')
+    if (conteudo.style.textAlign != 'center') {
+        conteudo.style.textAlign = 'center'
+    }
+}
+
+function alinhar_direita() {
+    let conteudo = document.querySelector('.conteudo')
+    if (conteudo.style.textAlign != 'right') {
+        conteudo.style.textAlign = 'right'
+    }
+}
+
+function justificar() {
+    let conteudo = document.querySelector('.conteudo')
+    if (conteudo.style.textAlign != 'justify') {
+        conteudo.style.textAlign = 'justify'
+    }
+}
+
+function negrito() {
+    let conteudo = document.querySelector('.conteudo')
+    let botao = document.querySelector('#negrito')
+
+    if (conteudo.style.fontWeight == 'normal') {
+        conteudo.style.fontWeight = 'bolder'
+        botao.style.backgroundColor = '#a7a7a7'
+    } else {
+        conteudo.style.fontWeight = 'normal'
+        botao.style.backgroundColor = '#1c1c1c'
+    }
+}
