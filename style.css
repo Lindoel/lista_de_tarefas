@@ -10,7 +10,6 @@ body {
 
 #listas-conteiner {
     background-color: #616161;
-    width: 1024px;
     min-height: 100vh;
     margin: auto;
     display: flex;
@@ -34,7 +33,7 @@ body {
     transform: translate(-50%, -50%);
     transition: cubic-bezier(0.68, -0.95, 0.265, 1.55);
     transition-duration: 1000ms;
-    display: block;
+    display: none;
 }
 
 .titulo {
